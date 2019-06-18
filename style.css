@@ -1,0 +1,24 @@
+body{
+    background: #f5d9d5;
+}
+
+#mainNav .navbar-brand{
+    color: #ea1c2c;
+    font-size: 1.5rem;
+}
+
+#mainNav .navbar-brand:hover{
+    color: #303c70;
+    font-weight: 400;
+}
+
+#mainNav{
+    font-size: 1.5rem;
+    font-weight: 100;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#mainNav .nav-link:hover{
+    color: #ea1c2c;
+    font-weight: 400; 
+}
