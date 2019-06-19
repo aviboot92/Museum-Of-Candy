@@ -9,13 +9,16 @@
     <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+
+    <!-- NavBar with fixed-top class and breaks at screen medium -->
     <nav id="mainNav" class="navbar navbar-expand-md navbar-dark py-0 fixed-top">
         <a href="#" class="navbar-brand">CANDY</a>
-        <button class="navbar-toggler" aria-expanded="false" aria-label="navLinks" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle Navigation">
+        <button class="navbar-toggler" aria-expanded="false" aria-label="navLinks" data-toggle="collapse"
+            data-target="#navLinks" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div id="navLinks" class="collapse navbar-collapse">
@@ -32,7 +35,27 @@
             </ul>
         </div>
     </nav>
-  
+
+    <!-- Section for div and img -->
+    <section class="container-fluid">
+        <!-- align-items-center class is used to center items vertically when orientation is flex-row -->
+        <div class="row align-items-center">
+            <!-- Text white class is used to convert text to white color; text-center class is used center the text horizontally -->
+            <div id="headGroup" class= "col-lg-6 mt-5 text-center text-white d-lg-block d-none">          
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+                    <h1>MUSEUM<span>/</span>OF<span>/</span>CANDY</h1>
+            </div>
+            <div class="col-lg-6 px-0">
+                <img id="donut1" class="img-fluid" src="./img/photo-1534073737927-85f1ebff1f5d.jpg" alt="donut-img">
+            </div>
+        </div>
+    </section>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

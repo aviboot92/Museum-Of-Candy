@@ -22,3 +22,29 @@ body{
     color: #ea1c2c;
     font-weight: 400; 
 }
+
+#mainNav .nav-link{
+    color: white;
+}
+
+#headGroup span{
+    color: #ea1c2c;
+}
+
+#headGroup h1{
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+#donut1{
+    width: 100%;
+    height: fit-content;
+}
+
+/* Media query for screen width below 1200px */
+@media(max-width: 1200px){
+    #headGroup h1{
+        font-weight: 100;
+        font-size: 3rem;
+    }
+}
