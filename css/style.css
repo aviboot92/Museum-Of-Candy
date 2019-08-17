@@ -1,50 +1,55 @@
 body{
-    background: #f5d9d5;
+    font-family: 'Nunito', sans-serif;
+    background-color: #f5d9df;
 }
-
-#mainNav .navbar-brand{
-    color: #ea1c2c;
-    font-size: 1.5rem;
+.navbar-brand{
+    color: #ea1c2c !important;
 }
-
-#mainNav .navbar-brand:hover{
-    color: #303c70;
-    font-weight: 400;
+#mainNavbar{
+    font-size: 1.1em;
+    font-weight: 200;
 }
-
-#mainNav{
-    font-size: 1.5rem;
-    font-weight: 100;
-    font-family: 'Philosopher', sans-serif;
+.navbar-brand:hover{
+    color: white !important;
 }
-
-#mainNav .nav-link:hover{
-    color: #ea1c2c;
-    font-weight: 400; 
+.nav-link:hover { 
+    color: #ea1c2c !important;
 }
-
-#mainNav .nav-link{
-    color: white;
-}
-
-#headGroup span{
-    color: #ea1c2c;
-}
-
-#headGroup h1{
-    font-weight: 100;
-    font-size: 4rem;
-}
-
-#donut1{
+.imageGr{
+    object-fit: cover;
+    height: 70%;
     width: 100%;
-    height: fit-content;
+}
+#headingGroup h1{
+    font-size: 2.5em;
+    font-weight: 200;
+}
+#headingGroup span{
+    color: #ea1c2c;
+}
+.rSection{
+    margin-bottom: -18%;
+}
+.lSection{
+    margin-bottom: 3%;
+}
+.blurb h2{
+    color: #ea1c2c;
+    font-weight: 100;
+    font-size: 2rem;
+}
+.blurb p{
+    color: #f498b8;
+    font-weight: 100;
+    line-height: 2;
+    font-size: 1.125em;
+}
+.navbar.scrolled{
+    background: rgb(222,192,222);
 }
 
-/* Media query for screen width below 1200px */
-@media(max-width: 1200px){
-    #headGroup h1{
-        font-weight: 100;
-        font-size: 3rem;
+@media (max-width: 980px){
+    #headingGroup h1{
+        font-size: 2em;
     }
 }
